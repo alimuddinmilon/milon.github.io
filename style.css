@@ -1,0 +1,305 @@
+*{margin:0;padding:0;}
+body{
+	background:#EEE8AE;
+	margin:0px auto;
+	
+}
+.main-wrap{
+	width:100%
+}
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.header-bg{
+	background:#FAB72A;
+	border-top:5px solid #6B710E;
+	border-bottom:5px solid #6B710E;
+	
+	
+}
+#header{
+	background:#FAB72A;
+	padding:15px;
+	border-left:1px solid #6B710E;
+	border-right:1px solid #6B710E;
+	
+}
+#header h2{
+	color:#FFFFF1;
+	text-shadow:2px 4px 3px red;
+}
+#header p{
+	color:#788420;
+}
+#nav{
+	background:#000;
+	height:38px;
+	border-left:1px solid #6B710E;
+	border-right:1px solid #6B710E;
+	
+}
+.nav-bg{
+	background:#000;
+	border-bottom:5px solid #6B710E;
+}
+#nav ul{
+	background:black;
+	list-style-type:none;
+	z-index:999;
+	width:960px;
+	
+	
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid	#6B710E;
+	position:relative;
+}
+#nav ul li:last-child{
+	border-right:none;
+}
+#nav ul li a{
+	text-decoration:none;
+	padding:10px 20px;
+	color:#fff;
+	display:block;
+	-webkit-transition:0.2s all ease;
+	-moz-transition:0.2s all ease;
+	transition:0.2s all ease;
+	
+}
+#nav ul li a:hover{
+	background:#6B710E;
+	color:#fff;
+}
+
+#nav ul li ul{
+	position:absolute;
+	left:-99999px;
+	width:200px;
+
+}
+#nav ul li:hover ul{
+	left:0;
+}
+#nav ul li ul li{
+	float:none;
+	border-top:2px solid #6B710E;
+	border-right:none;
+	position:relative;
+	
+	
+}
+#nav ul li ul li:first-child{
+	border-top:5px solid #64640F;
+}
+#nav ul li ul li ul{
+	position:absolute;
+	top:-999999px;
+}
+#nav ul li ul li:hover ul{
+	top:-2px;;
+	left:200px;
+}
+#nav ul li ul li ul li{
+	border-left:2px solid #6B710E;
+}
+#nav ul li ul li ul li:first-child{
+	border-top:none;
+}
+.slider-bg{
+	background:#222222;
+	border-bottom:5px solid #6B710E;
+}
+#slider_wrapper{
+	width:960px;
+	border-left:1px solid #6B710E;
+	border-right:1px solid #6B710E;
+	
+	
+
+}
+#content-wrapper{
+	background-color:#fff;
+	
+	padding:10px;
+	overflow:hidden;
+	border-left:1px solid #6B710E;
+	border-right:1px solid #6B710E;
+
+	
+}
+.content-bg{
+	background:#fff;
+}
+#content {
+    width: 620px;
+    margin-right:20px;
+    float: left;
+    margin-bottom: 29px;
+    margin-top: 0;
+	
+}
+#content p{
+	font-size: 15px;
+	margin-top:5px;
+	text-align:justify;
+}
+
+#content h2 {
+    color: #6B710E;
+    font-family: arial;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#content img{
+	width:450px;
+	
+}
+
+#content figure{
+	width:450px;
+	display:block;
+	margin:0 auto;
+	padding:10px;
+	background:#ddd;
+}
+#content figcaption{
+	color:green;
+	text-align:center;
+	font-family:arial;
+	font-weight:bold;
+	
+}
+ blockquote{
+	background:#ddd;
+	padding:10px;
+	padding-left:30px;
+	margin-left:40px;
+	border-left:2px solid red;
+}
+#sidebar{
+	width:280px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	
+}
+#sidebar h2{
+	color:#6B710E;
+}
+#sidebar ul li a{
+	text-decoration:none;
+	color:#6B710E;
+    display:block;
+	padding:3px;
+	
+}
+#footer{
+	background-color:#635548;
+	padding:10px;
+}
+.footer-bg{
+	background-color:#635548;
+}
+#footer p{
+	color:#fff;
+	text-align:center;
+	
+}
+#article{
+	margin-bottom:25px;
+	border-bottom: 1px solid #635548;
+	overflow:hidden;
+	
+}
+#imgp-wrap img{
+	width:75px;
+	height:75px;
+	background:#fff;
+	border:1px solid #ddd;
+	padding:3px;
+	margin-right:10px;
+	float:left;
+}
+#imgp-wrap p{
+	float:left;
+	width:520px;
+	margin-top:0;
+}
+#imgp-wrap{
+	margin-top:10px;
+	margin-bottom:100px;
+}
+aside{
+	margin-bottom:25px;
+	border-bottom:1px solid #635548;
+}
+aside ul li{
+	border-bottom:1px solid #635548;
+}
+.button{
+	text-decoration:none;
+}
+.click{
+	
+	background:#ddd;
+	padding:10px 30px;
+	position:relative;
+	z-index:5;
+	overflow:hidden;
+	display:inline-block;
+
+}
+.click:hover{
+	background:none;
+	color:white;
+}
+.click:before{
+	content:"";
+	width:50%;
+	height:100%;
+	background:green;
+	position:absolute;
+	top:0;
+	left:-50%;
+	z-index:-5;
+	transition:all 0.3s ease;
+}
+.click:after{
+	right:0;
+	content:"";
+	width:50%;
+	height:100%;
+	background:green;
+	position:absolute;
+	top:0;
+	right:-50%;
+	z-index:-5;
+	transition:all 0.3s ease;
+}
+.button:hover .click:before{
+	left:0;
+}
+	.button:hover .click:after{
+	right:0;
+}
+#sticker{
+	background:green;
+	color:#fff;
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:999999999999;
+	
+	
+}
+
+	
+
+
+
